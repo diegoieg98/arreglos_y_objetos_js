@@ -1,0 +1,119 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
+
+/* Style Ventas */
+.propiedadEnVenta{
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+#propiedadesEnVenta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#casa1{
+    width: 20%;
+}
+#casa1 img{
+    width: 100%;
+    height: 300px;
+}
+#casa2{
+    width: 20%;
+}
+#casa2 img{
+    width: 100%;
+    height: 300px;
+}
+#casa3{
+    width: 20%;
+}
+#casa3 img{
+    width: 100%;
+    height: 300px;
+}
+#casaC1{
+    width: 20%;
+}
+#casaC1 img{
+    width: 100%;
+    height: 300px;
+}
+
+/* Style alquiler */
+.propiedadesEnAlquiler{
+    border-radius: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+#propiedadesEnAlquiler{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: center;
+}
+#casaC2{
+    border: 1px solid grey;
+    width: 20%;
+}
+#casaC2 img{
+    width: 100%;
+    height: 300px;
+}
+#casa4{
+    border: 1px solid grey;
+    width: 20%;
+}
+#casa4 img{
+    width: 100%;
+    height: 300px;
+}
+#casa5{
+    border: 1px solid grey;
+    width: 20%;
+}
+#casa5 img{
+    width: 100%;
+    height: 300px;
+}
+#casa6{
+    border: 1px solid grey;
+    width: 20%;
+}
+#casa6 img{
+    width: 100%;
+    height: 300px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.yes{
+    color: green;
+}
+.no{
+    color: red;
+}
